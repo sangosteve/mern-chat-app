@@ -1,0 +1,46 @@
+.chat_item {
+  width: 300px;
+  min-height: 80px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+/* DESIGN FOR THE OTHER SENDER WHO IS NOT CURRENT USER */
+.chat_item.other {
+  background-color: blueviolet;
+}
+.chat_item.other .user_image_wrapper {
+  width: 15%;
+  height: 15%;
+  align-self: flex-end;
+}
+
+/* ===================================================== */
+
+.user_image_wrapper {
+  width: 15%;
+  height: 15%;
+  align-self: flex-end;
+}
+.user_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.user_message_wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 75%;
+  padding: 7px;
+  justify-content: space-around;
+}
+
+.user_message_moment_wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

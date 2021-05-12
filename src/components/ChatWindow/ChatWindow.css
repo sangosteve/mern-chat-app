@@ -8,6 +8,7 @@
 .chats_section {
   width: 100%;
   height: 95%;
+  position: relative;
 }
 .input_wrapper {
   width: 100%;

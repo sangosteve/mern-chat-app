@@ -17,7 +17,7 @@ const ChatWindow = () => {
     {
       msgID: 2,
       userImg: "https://i.pravatar.cc/150?img=7",
-      type: "",
+      type: "me",
       msg: "Hey bro hwzit",
       msgTime: "16 mins ago",
       lastSeen: "an hour ago",
@@ -33,7 +33,7 @@ const ChatWindow = () => {
     {
       msgID: 4,
       userImg: "https://i.pravatar.cc/150?img=7",
-      type: "",
+      type: "me",
       msg: "Hey bro hwzit",
       msgTime: "16 mins ago",
       lastSeen: "an hour ago",
@@ -41,12 +41,30 @@ const ChatWindow = () => {
     {
       msgID: 5,
       userImg: "https://i.pravatar.cc/150?img=7",
-      type: "",
+      type: "me",
       msg: "Hey bro hwzit",
       msgTime: "16 mins ago",
       lastSeen: "an hour ago",
     },
   ]);
+  // const [message, setMessage] = useState("");
+  // const sendMessage = () => {
+  //   console.log("sending message...");
+  //   chatData.push({
+  //     msgID: 6,
+  //     userImg: "https://i.pravatar.cc/150?img=7",
+  //     type: "me",
+  //     msg: message,
+  //     msgTime: new Date(),
+  //     lastSeen: "An Hour Ago",
+  //   });
+
+  //   setChatData([...chatData]);
+  // };
+  // const handleUserInput = (e) => {
+  //   setMessage(e.target.value);
+  // };
+
   return (
     <div className="chat_window">
       <div className="chats_section">
